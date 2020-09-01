@@ -29,7 +29,6 @@ class App extends Component {
             <h3 className="text-capitalize text-center">
               todo input
             </h3>
-          </div>
           <TodoInput
             item={this.state.item}
             handleChange={this.handleChange}
@@ -42,7 +41,7 @@ class App extends Component {
             handleDelete={this.handleDelete}
             handleEdit={this.handleEdit}
           />
-          
+        </div>
         </div>
       </div>
   );
